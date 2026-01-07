@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: url('images/avengers-doomsday-7680x4320-17768.jpg') center/cover
+    no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+} /* MAIN GLASS CARD */
+.glass-card {
+  width: 70%;
+  max-width: 900px;
+  padding: 35px 50px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12),
+    rgba(255, 255, 255, 0.04)
+  );
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.05),
+    0 25px 60px rgba(0, 0, 0, 0.75);
+} /* DATE & DAY */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6), 0 6px 18px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+}
+/* TIME */
+.time-text {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: #eaf2f2; /* 🔹 NO NEON / NO GLOW
+*/
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6), 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+/* AM / PM */
+.time-text span {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 12px;
+}
